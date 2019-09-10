@@ -1,0 +1,67 @@
+body {
+  padding: 5px;
+  margin: 0;
+  font-family: sans-serif;
+  background: #f2f2f2;
+}
+
+.form-wrap {
+  color: white !important;
+}
+
+.form-wrap.form-builder .frmb-control li {
+  background-color: #43484e !important;
+  color: #fbb631;
+}
+
+.form-wrap.form-builder .frmb li {
+  background-color: #43484e !important;
+}
+
+.form-elements {
+  background-color: #43484e !important;
+}
+
+.field-label {
+  color: white !important;
+}
+
+.save-template {
+  background-color: #fbb631;
+  border-radius: 25px;
+}
+
+.close-field {
+  color: black !important;
+  background-color: #fbb631 !important;
+  border-color: #fbb631 !important;
+}
+
+.form-wrap .form-elements {
+  border: 1px solid #fbb631 !important;
+}
+
+.form-wrap .option-actions a {
+  background: initial !important;
+}
+
+.form-wrap .sortable-options>li .remove {
+  display: none;
+}
+
+.form-wrap * input, .form-wrap * textarea, div[name="label"], .form-wrap * select{
+  border: none !important;
+  border-radius: unset !important;
+  border-bottom: 1px solid #fbb631 !important;
+  border-color: #fbb631;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  background-color: #43484e !important;
+  color: #f2f2f2;
+  outline: none;
+}
+
+.form-wrap .sortable-options > li {
+  margin: unset !important;
+  border-radius: 0 !important;
+}
